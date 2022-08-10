@@ -1,3 +1,3 @@
 public class BuildDryRun {
-	public static String bDryRun = 'all'
+	public static String jobName = 'all'
 }
