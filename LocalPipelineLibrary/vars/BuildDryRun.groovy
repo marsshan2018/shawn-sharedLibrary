@@ -1,3 +1,3 @@
 public class BuildDryRun {
-	public static String jobName = 'all'
+	public static Boolean jobName = true
 }
