@@ -1,3 +1,3 @@
 public class BuildDryRun {
-	public static Boolean bDryRun = false
+	public static String bDryRun = 'all'
 }
