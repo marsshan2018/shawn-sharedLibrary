@@ -1,3 +1,3 @@
 public class BuildDryRun {
-	public String animal = dog
+	public String animal = "dog"
 }
