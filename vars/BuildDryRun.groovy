@@ -1,3 +1,3 @@
 public class BuildDryRun {
-	public static String animal = ${SHAWN_VAR}
+	public String animal = ${SHAWN_VAR}
 }
