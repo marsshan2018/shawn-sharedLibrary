@@ -1,3 +1,4 @@
 def call(name, date="Friday") {
-    sh "echo Hello ${NODE_NAME}. Today is ${date}."
+    println "Hello ${name}. Today is {date}."
+    //sh "echo Hello ${NODE_NAME}. Today is ${date}."
 }
