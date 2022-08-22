@@ -1,4 +1,4 @@
-String localhostname = java.net.InetAddress.getLocalHost().getHostName();
+@Field String localhostname = java.net.InetAddress.getLocalHost().getHostName();
 
 def call(name, date) {
     sh "echo Hello ${localhostname}. Today is ${date}."
