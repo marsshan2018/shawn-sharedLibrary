@@ -1,7 +1,8 @@
 def call(name, date) {
-    sh "echo Hello ${name}. Today is ${date}."
+    String localhostname = java.net.InetAddress.getLocalHost().getHostName();
+    sh "echo Hello ${localhostname}. Today is ${date}."
 }
 
 def call(name) {
-    sh "echo Hello ${name}."
+    sh "echo Hello ${localhostname}."
 }
