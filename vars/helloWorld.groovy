@@ -4,5 +4,6 @@ def call(name, date) {
 }
 
 def call(name) {
+    String localhostname = java.net.InetAddress.getLocalHost().getHostName();
     sh "echo Hello ${localhostname}."
 }
